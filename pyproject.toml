@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "google-adk-agentfolio"
+version = "0.1.0"
+description = "AgentFolio identity, trust & reputation tools for Google Agent Development Kit (ADK)"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = [
+    "google-adk>=1.0.0",
+    "httpx>=0.24.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/0xbrainkid/google-adk-agentfolio"
+Documentation = "https://agentfolio.bot"
